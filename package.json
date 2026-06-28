@@ -4,6 +4,7 @@
   "description": "Amader Seba WhatsApp Bot",
   "main": "bot.js",
   "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome",
     "start": "node bot.js"
   },
   "dependencies": {
